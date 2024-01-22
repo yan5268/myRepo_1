@@ -13,14 +13,14 @@ def index():
 	return 'HELLO!!!...\n\n'
 
 @app.route('/hello', methods=['GET'])
-def runMonModule():
+def helloworld():
 	if (request.method == 'GET'):
 		data = {"data": "Hello World"}
 		return jsonify(data)
 
 
 @app.route('/HAHA', methods=['GET'])
-def runMonModule_HAHA():
+def helloworld_HAHA():
 	if (request.method == 'GET'):
 		data = {"data": "HAHA..."}
 		return jsonify(data)
