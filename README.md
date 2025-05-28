@@ -1,9 +1,9 @@
 ## 1. Build Docker image 
 ```commandline
-docker build -t python-rest-api .
+docker build -t python-rest-api-hello .
 ```
 
 ## 2. Run Docker image
 ```commandline
-docker run -p 9001:9001 python-rest-api
+docker run -p 9001:9001 python-rest-api-hello
 ```
